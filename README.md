@@ -5,8 +5,12 @@ https://guides.github.com/features/pages/
 
 https://levelup.gitconnected.com/deploying-a-create-react-app-with-routing-to-github-pages-f386b6ce84c2
 
-and with some help from:
+and with a little help from:
 https://www.youtube.com/watch?v=tOK9l5uP06U&feature=youtu.be
+
+https://react-bootstrap.github.io/
+
+---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
