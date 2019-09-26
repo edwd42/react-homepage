@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { HashRouter, Link, Route } from "react-router-dom";
+import { HashRouter, Link, Route, Switch } from "react-router-dom";
 import "./App.css";
 
 class App extends Component {
@@ -16,8 +16,11 @@ class App extends Component {
             </li>
           </ul>
           <hr />
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/about" exact component={About} />
+            {/* <Route path="/contact" exact component={Contact} /> */}
+          </Switch>
         </div>
       </HashRouter>
     );
