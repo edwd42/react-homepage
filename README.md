@@ -1,5 +1,12 @@
 This project created with the help of the following resources:
+https://pages.github.com/
+
+https://guides.github.com/features/pages/
+
 https://levelup.gitconnected.com/deploying-a-create-react-app-with-routing-to-github-pages-f386b6ce84c2
+
+and with some help from:
+https://www.youtube.com/watch?v=tOK9l5uP06U&feature=youtu.be
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
