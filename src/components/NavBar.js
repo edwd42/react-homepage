@@ -6,7 +6,7 @@ import styled from "styled-components";
 const Styles = styled.div`
   .navbar {
     background-color: #222;
-    height: 50px;
+    height: 60px;
   }
   a,
   .navbar-brand,
