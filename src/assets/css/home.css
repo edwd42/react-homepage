@@ -15,3 +15,49 @@
   left: 0;
   z-index: -1;
 }
+
+.banner {
+  background-color: #626262;
+  background-color: rgba(98, 98, 98, 0.3);
+
+  border-radius: 26px;
+  width: 75%;
+  margin: auto;
+  margin-top: 300px;
+}
+
+.banner-text {
+  text-align: center;
+  padding: 10px;
+}
+
+.banner-text h1 {
+  font-size: 66px;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 10px;
+}
