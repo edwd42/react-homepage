@@ -2,6 +2,7 @@ import React from "react";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import { Contact } from "./Contact";
 
 const Styles = styled.div`
   .navbar {
@@ -14,6 +15,13 @@ const Styles = styled.div`
     color: #bbb;
     &:hover {
       color: white;
+    }
+  }
+  .contact a {
+    text-decoration: none;
+    color: #000;
+    &:hover {
+      color: blue;
     }
   }
 `;
@@ -48,11 +56,9 @@ export const NavBar = () => (
             <NavDropdown.Divider />
             <NavDropdown.Item href="#">Separated link</NavDropdown.Item>
           </NavDropdown>
-          <Nav.Item>
-            <Nav.Link>
-              <Link to="/contact">Contact</Link>
-            </Nav.Link>
-          </Nav.Item>
+          <NavDropdown title="Contact" id="collasible-nav-dropdown">
+            <Contact />
+          </NavDropdown>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
