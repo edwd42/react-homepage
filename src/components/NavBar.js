@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 import "../assets/css/navbar.css";
 import { Contact } from "./Contact";
-import { Projects } from "./Projects";
 
 const Styles = styled.div`
   .navbar {
@@ -52,7 +51,17 @@ export const NavBar = () => (
             </Nav.Link>
           </Nav.Item>
           <NavDropdown title="Projects" id="collasible-nav-dropdown">
-            <Projects />
+            {/* <NavDropdown.Item href="#">Projects Showcase</NavDropdown.Item> */}
+            <Nav.Link>
+              <Link to="/projects">Projects Showcase</Link>
+            </Nav.Link>
+            <NavDropdown.Divider />
+            <NavDropdown.Item href="http://yahoo-scraper.s3-website-us-east-1.amazonaws.com/">
+              Yahoo Scraper
+            </NavDropdown.Item>
+            <NavDropdown.Item href="https://edwd42.github.io/NewportDataProject/">
+              Leaflet Data Overlays
+            </NavDropdown.Item>
           </NavDropdown>
           <NavDropdown title="Contact" id="contact">
             <Contact />

@@ -21,7 +21,7 @@ button:hover {
   color: blue;
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 440px) {
   a,
   .navbar-brand,
   .navbar-nav .nav-link {
@@ -30,6 +30,6 @@ button:hover {
   a:hover .navbar-nav:hover .nav-link:hover,
   link:hover {
     background: purple;
-    color: green;
+    color: yellow;
   }
 }

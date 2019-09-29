@@ -1,0 +1,9 @@
+body {
+  text-align: center;
+}
+
+@media screen and (max-width: 4508px) {
+  .next-steps .col-md-5 {
+    margin-bottom: 0;
+  }
+}
