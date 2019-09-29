@@ -2,11 +2,12 @@ import React from "react";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import "../assets/css/navbar.css";
 import { Contact } from "./Contact";
 
 const Styles = styled.div`
   .navbar {
-    background-color: #222;
+    background-color: red;
     height: 60px;
   }
   a,
@@ -56,7 +57,7 @@ export const NavBar = () => (
             <NavDropdown.Divider />
             <NavDropdown.Item href="#">Separated link</NavDropdown.Item>
           </NavDropdown>
-          <NavDropdown title="Contact" id="collasible-nav-dropdown">
+          <NavDropdown title="Contact" id="contact">
             <Contact />
           </NavDropdown>
         </Nav>

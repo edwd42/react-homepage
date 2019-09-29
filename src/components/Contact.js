@@ -8,7 +8,7 @@ export const Contact = () => (
         &nbsp;
         <i className="fa fa-phone" aria-hidden="true" />
         &nbsp;&nbsp;&nbsp;
-        <a href="#">(401) 497-6933</a>
+        <button>(401) 497-6933</button>
       </li>
 
       <li className="list-item-content">
