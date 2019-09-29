@@ -1,5 +1,5 @@
 import React from "react";
-import "../assets/css/contact.css";
+import "../assets/css/navbar.css";
 
 export const Contact = () => (
   <div className="contact">

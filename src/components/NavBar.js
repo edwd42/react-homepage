@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 import "../assets/css/navbar.css";
 import { Contact } from "./Contact";
+import { Projects } from "./Projects";
 
 const Styles = styled.div`
   .navbar {
@@ -51,11 +52,7 @@ export const NavBar = () => (
             </Nav.Link>
           </Nav.Item>
           <NavDropdown title="Projects" id="collasible-nav-dropdown">
-            <NavDropdown.Item href="#">Action</NavDropdown.Item>
-            <NavDropdown.Item href="#">Another action</NavDropdown.Item>
-            <NavDropdown.Item href="#">Something</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#">Separated link</NavDropdown.Item>
+            <Projects />
           </NavDropdown>
           <NavDropdown title="Contact" id="contact">
             <Contact />

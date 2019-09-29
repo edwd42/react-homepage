@@ -1,32 +1,22 @@
-.navbar {
-  background-color: red;
-  height: 160px;
+ul {
+  list-style: none;
 }
 
-#contact {
-  background-color: red;
-  background-color: rgba(98, 98, 98, 0.3);
-
-  border-radius: 26px;
-  width: 75%;
-  margin: auto;
-  margin-top: 300px;
+.contact {
+  width: 300px;
+  margin-left: -20px;
 }
 
-#contact-text {
-  text-align: center;
-  padding: 10px;
-}
-
-.butn {
+button {
   font-family: Arial;
   color: #000000;
-  font-size: 16px;
-  padding: 10px 20px 10px 20px;
+  padding: 0;
   text-decoration: none;
+  border: none;
+  background-color: #fff;
 }
 
-.butn:hover {
+button:hover {
   text-decoration: none;
   color: blue;
 }
