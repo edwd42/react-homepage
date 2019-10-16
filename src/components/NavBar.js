@@ -56,10 +56,16 @@ export const NavBar = () => (
               <Link to="/projects">Projects Showcase</Link>
             </Nav.Link>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="http://yahoo-scraper.s3-website-us-east-1.amazonaws.com/">
+            <NavDropdown.Item
+              href="http://yahoo-scraper.s3-website-us-east-1.amazonaws.com/"
+              target="_blank"
+            >
               Yahoo Scraper
             </NavDropdown.Item>
-            <NavDropdown.Item href="https://edwd42.github.io/NewportDataProject/">
+            <NavDropdown.Item
+              href="https://edwd42.github.io/NewportDataProject/"
+              target="_blank"
+            >
               Leaflet Data Overlays
             </NavDropdown.Item>
           </NavDropdown>
