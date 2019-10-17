@@ -7,7 +7,6 @@ import { Contact } from "./Contact";
 
 const Styles = styled.div`
   .navbar {
-    background-color: red;
     height: 60px;
   }
   a,
@@ -18,6 +17,29 @@ const Styles = styled.div`
       color: white;
     }
   }
+
+  a #projects {
+    text-decoration: none;
+    color: #000;
+    &:hover {
+      color: blue;
+    }
+  }
+
+  /* a #projectsnavlink {
+    &:hover {
+      background-color: green;
+      color: red;
+    }
+  } */
+
+  a.dropdown-item {
+    color: #000;
+    &:hover {
+      color: blue;
+    }
+  }
+
   .contact a {
     text-decoration: none;
     color: #000;
@@ -52,8 +74,10 @@ export const NavBar = () => (
           </Nav.Item>
           <NavDropdown title="Projects" id="collasible-nav-dropdown">
             {/* <NavDropdown.Item href="#">Projects Showcase</NavDropdown.Item> */}
-            <Nav.Link>
-              <Link to="/projects">Projects Showcase</Link>
+            <Nav.Link id="projectsnavlink">
+              <Link to="/projects" id="projects">
+                Projects Showcase
+              </Link>
             </Nav.Link>
             <NavDropdown.Divider />
             <NavDropdown.Item
