@@ -7,7 +7,13 @@ export const Projects = () => (
     <h1>Projects Showcase</h1>
     <CardColumns>
       <Card>
-        <Card.Img src="./images/content-scraping.png" />
+        <a
+          href="http://yahoo-scraper.s3-website-us-east-1.amazonaws.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Card.Img src="./images/content-scraping.png" />
+        </a>
         <Card.Body>
           <Card.Title>Java Web Scraper</Card.Title>{" "}
           <Card.Text>
@@ -50,7 +56,13 @@ export const Projects = () => (
         </blockquote>
       </Card> */}
       <Card>
-        <Card.Img variant="top" src="./images/NDP_screenshot.png" />
+        <a
+          href="https://edwd42.github.io/NewportDataProject/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Card.Img variant="top" src="./images/NDP_screenshot.png" />
+        </a>
         <Card.Body>
           <Card.Title>Leaflet Data Overlays</Card.Title>
           <Card.Text>
