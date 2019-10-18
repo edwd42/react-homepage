@@ -8,10 +8,10 @@ export const Home = () => (
     <img src={bgimage} alt="bgimage" id="bg" />
     <div className="banner">
       <div className="banner-text">
-        <h1>Edward Dupre</h1>
-        <h1>Full Stack Web Developer</h1>
+        <h1 className="stroke">Edward Dupre</h1>
+        <h1 className="stroke">Full Stack Web Developer</h1>
         <hr />
-        <p>
+        <p className="shadow">
           HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS |
           Express | MongoDB
         </p>
@@ -23,12 +23,12 @@ export const Home = () => (
             rel="noopener noreferrer"
             target="_blank"
           >
-            <i className="fa fa-linkedin-square" aria-hidden="true" />
+            <i className="fa fa-linkedin-square stroke" aria-hidden="true" />
           </a>
 
           {/* Github */}
           <a href="http://github.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-github-square" aria-hidden="true" />
+            <i className="fa fa-github-square stroke" aria-hidden="true" />
           </a>
 
           {/* Freecodecamp */}
@@ -37,7 +37,7 @@ export const Home = () => (
             rel="noopener noreferrer"
             target="_blank"
           >
-            <i className="fa fa-free-code-camp" aria-hidden="true" />
+            <i className="fa fa-free-code-camp stroke" aria-hidden="true" />
           </a>
 
           {/* Twitter */}
@@ -46,7 +46,7 @@ export const Home = () => (
             rel="noopener noreferrer"
             target="_blank"
           >
-            <i className="fa fa-twitter-square" aria-hidden="true" />
+            <i className="fa fa-twitter-square stroke" aria-hidden="true" />
           </a>
         </div>
       </div>
