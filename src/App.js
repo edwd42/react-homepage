@@ -1,7 +1,8 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React, { Component } from "react";
 import { HashRouter, Route, Switch } from "react-router-dom";
 import "./App.css";
-import { About } from "./components/About";
+import { Blog } from "./components/Blog";
 import { Contact } from "./components/Contact";
 import { Home } from "./components/Home";
 import { Layout } from "./components/Layout";
@@ -18,7 +19,7 @@ class App extends Component {
             <div>
               <Switch>
                 <Route exact path="/" component={Home} />
-                <Route path="/about" component={About} />
+                <Route path="/blog" component={Blog} />
                 <Route path="/projects" component={Projects} />
                 <Route path="/contact" component={Contact} />
               </Switch>

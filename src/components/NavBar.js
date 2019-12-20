@@ -69,7 +69,7 @@ export const NavBar = () => (
           </Nav.Item>
           <Nav.Item>
             <Nav.Link>
-              <Link to="/about">About</Link>
+              <Link to="/blog">Blog</Link>
             </Nav.Link>
           </Nav.Item>
           <NavDropdown title="Projects" id="collasible-nav-dropdown">

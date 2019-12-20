@@ -1,0 +1,17 @@
+body {
+  text-align: left;
+}
+
+#blog-intro {
+  text-align: left;
+}
+
+#blog-intro h2 {
+  text-align: center;
+}
+/* 
+@media screen and (max-width: 4508px) {
+  .next-steps .col-md-5 {
+    margin-bottom: 0;
+  }
+} */
