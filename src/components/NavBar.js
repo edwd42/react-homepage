@@ -81,10 +81,10 @@ export const NavBar = () => (
             </Nav.Link>
             <NavDropdown.Divider />
             <NavDropdown.Item
-              href="http://grid-hub.s3-website-us-east-1.amazonaws.com/"
+              href="http://chart-o-rama.s3-website-us-east-1.amazonaws.com/"
               target="_blank"
             >
-              Grid-Hub
+              Chart-O-Rama
             </NavDropdown.Item>
             <NavDropdown.Item
               href="http://yahoo-scraper.s3-website-us-east-1.amazonaws.com/"
