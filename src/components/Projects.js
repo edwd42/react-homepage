@@ -42,19 +42,7 @@ export const Projects = () => (
           </Card.Link>
         </Card.Footer>
       </Card>
-      {/* <Card className="p-3">
-        <blockquote className="blockquote mb-0 card-body">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            posuere erat a ante.
-          </p>
-          <footer className="blockquote-footer">
-            <small className="text-muted">
-              Someone famous in <cite title="Source Title">Source Title</cite>
-            </small>
-          </footer>
-        </blockquote>
-      </Card> */}
+
       <Card>
         <a
           href="https://edwd42.github.io/NewportDataProject/"
@@ -91,7 +79,45 @@ export const Projects = () => (
           </Card.Link>
         </Card.Footer>
       </Card>
-      <Card bg="primary" text="white" className="text-center p-3">
+
+    <Card>
+        <a
+          href="http://chart-o-rama.s3-website-us-east-1.amazonaws.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Card.Img src="./images/Chart-O-Rama-SS.png" />
+        </a>
+        <Card.Body>
+          <Card.Title>Chart-O-Rama</Card.Title>{" "}
+          <Card.Text>
+            Angular 8 Web App with various charts from Highcharts, Plot.ly, Google Charts and maps from Leaflet.
+            The data are from Providence Open Data OpenPVD.gov and Socrata.com
+          </Card.Text>
+        </Card.Body>
+        <Card.Footer>
+          <Card.Link>
+            <a
+              href="https://github.com/edwd42/chart-o-rama"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub&nbsp;Repo
+            </a>
+          </Card.Link>
+          <Card.Link>
+            <a
+              href="http://chart-o-rama.s3-website-us-east-1.amazonaws.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live&nbsp;Demo
+            </a>
+          </Card.Link>
+        </Card.Footer>
+      </Card>
+
+      {/* <Card bg="primary" text="white" className="text-center p-3">
         <blockquote className="blockquote mb-0 card-body">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
@@ -115,7 +141,7 @@ export const Projects = () => (
             <small className="text-muted">Last updated 3 mins ago</small>
           </Card.Text>
         </Card.Body>
-      </Card>
+      </Card> */}
       {/*<Card>
         <Card.Img src="holder.js/100px160" />
       </Card>
