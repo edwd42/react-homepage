@@ -44,12 +44,9 @@ export const CareerDevs = () => (
       <div id="about" className="about pad-section">
         <div className="container">
           <div className="row">
-            <div className="col-sm-6">
-              <img src={CareerDevsClassroom} alt="" />
-            </div>
-            <div className="col-sm-6 text-left">
+            <div className="col-sm-6 text-right">
               <h2>CareerDevs Classroom</h2>
-              <p className="text-left">This is where genius happens.</p>
+              <p className="text-right">This is where genius happens.</p>
               <p>
                 CareerDevs is a year-long, full-stack program for students
                 looking to kickstart their careers in computer science. We are
@@ -57,7 +54,12 @@ export const CareerDevs = () => (
                 time is one that teaches students the powerful skills needed to
                 thrive in today’s economy without incurring the crushing student
                 debts affecting Americans today.
+                <br />
+                <small>- Arnell Milhouse, Executive Director</small>
               </p>
+            </div>
+            <div className="col-sm-6">
+              <img src={CareerDevsClassroom} alt="" />
             </div>
           </div>
         </div>
@@ -253,50 +255,79 @@ export const CareerDevs = () => (
         </div>
       </div> */}
 
-      <div
-        id="carouselExampleControls"
-        className="carousel slide carousel-container"
-        data-ride="carousel"
-      >
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img src={NewsLogos} className="d-block w-100" alt="NewsLogos" />
-          </div>
-          <div className="carousel-item">
-            <img src={NASDAQapp} className="d-block w-100" alt="NASDAQapp" />
-          </div>
-          <div className="carousel-item">
-            <img
-              src={this_is_git}
-              className="d-block w-100"
-              alt="this_is_git"
-            />
+      <div id="about" className="about pad-section">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-8">
+              <div
+                id="carouselExampleControls"
+                className="carousel slide carousel-container"
+                data-ride="carousel"
+              >
+                <div className="carousel-inner">
+                  <div className="carousel-item active">
+                    <img
+                      src={NewsLogos}
+                      className="d-block w-100"
+                      alt="NewsLogos"
+                    />
+                  </div>
+                  <div className="carousel-item">
+                    <img
+                      src={NASDAQapp}
+                      className="d-block w-100"
+                      alt="NASDAQapp"
+                    />
+                  </div>
+                  <div className="carousel-item">
+                    <img
+                      src={this_is_git}
+                      className="d-block w-100"
+                      alt="this_is_git"
+                    />
+                  </div>
+                </div>
+                <a
+                  className="carousel-control-prev"
+                  href="#carouselExampleControls"
+                  role="button"
+                  data-slide="prev"
+                >
+                  <span
+                    className="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span className="sr-only">Previous</span>
+                </a>
+                <a
+                  className="carousel-control-next"
+                  href="#carouselExampleControls"
+                  role="button"
+                  data-slide="next"
+                >
+                  <span
+                    className="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span className="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+            <div className="col-sm-4 text-left">
+              <h2>My Projects</h2>
+              <p className="text-left">
+                At CareerDevs, students are tasked with a variety of projects.
+                Here is a carousel of screenshots from some of my projects.
+              </p>
+            </div>
           </div>
         </div>
-        <a
-          className="carousel-control-prev"
-          href="#carouselExampleControls"
-          role="button"
-          data-slide="prev"
-        >
-          <span
-            className="carousel-control-prev-icon"
-            aria-hidden="true"
-          ></span>
-          <span className="sr-only">Previous</span>
-        </a>
-        <a
-          className="carousel-control-next"
-          href="#carouselExampleControls"
-          role="button"
-          data-slide="next"
-        >
-          <span
-            className="carousel-control-next-icon"
-            aria-hidden="true"
-          ></span>
-          <span className="sr-only">Next</span>
-        </a>
+      </div>
+
+      <div>
+        <br />
+        <br />
+        <br />
       </div>
     </main>
   </>
