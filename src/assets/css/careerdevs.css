@@ -149,3 +149,48 @@ a:hover {
   margin: 0;
   padding: 0;
 }
+
+.carousel-control,
+.glyphicon {
+  background-color: #e3dee5 !important;
+  color: white;
+  width: 0%;
+  /*opacity: 1 !important;*/
+}
+
+.carousel-control .left {
+  margin-left: 25px;
+}
+
+.carousel-control .right {
+  margin-right: 25px;
+}
+
+img {
+  width: 400px;
+  height: 300px;
+  /* width: 100%; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-container {
+  /* width: 400px; */
+  width: 700px;
+  height: 450px;
+  /* width: 100%; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel-container img {
+  /* width: 400px; */
+  width: 600px;
+  height: 450px;
+  /* width: 100%; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

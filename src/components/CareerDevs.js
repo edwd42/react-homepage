@@ -1,7 +1,11 @@
 import React from "react";
 import "../assets/css/careerdevs.css";
+// import "../assets/css/style.css";
 import CareerDevsClassroom from "../assets/images/CareerDevsClassroom.png";
 import CareerDevsCohortOnRoofTop from "../assets/images/CareerDevsCohortOnRoofTop.jpg";
+import NASDAQapp from "../assets/images/CDImages/NASDAQapp.png";
+import NewsLogos from "../assets/images/CDImages/NewsLogos.png";
+import this_is_git from "../assets/images/CDImages/this_is_git.png";
 import CDAdvancedCertificate from "../assets/images/CD_certificates/CDAdvancedCertificate.png";
 import CDIntermediateCertfiicate from "../assets/images/CD_certificates/CDIntermediateCertfiicate.jpg";
 import CDIntroductionCertfiicate from "../assets/images/CD_certificates/CDIntroductionCertfiicate.jpg";
@@ -14,17 +18,23 @@ export const CareerDevs = () => (
           <div className="row">
             <div className="col-sm-4">
               <div className="certs">
-                <img src={CDIntroductionCertfiicate} alt="" />
+                <img
+                  src={CDIntroductionCertfiicate}
+                  alt="CDIntroductionCertfiicate"
+                />
               </div>
             </div>
             <div className="col-sm-4">
               <div className="certs">
-                <img src={CDIntermediateCertfiicate} alt="" />
+                <img
+                  src={CDIntermediateCertfiicate}
+                  alt="CDIntermediateCertfiicate"
+                />
               </div>
             </div>
             <div className="col-sm-4">
               <div className="certs">
-                <img src={CDAdvancedCertificate} alt="" />
+                <img src={CDAdvancedCertificate} alt="CDAdvancedCertificate" />
               </div>
             </div>
           </div>
@@ -139,7 +149,155 @@ export const CareerDevs = () => (
         </div>
       </div> */}
 
+      {/* <div className="container">
+        <div className="carousel slide" data-ride="carousel" id="myCarousel">
+          <ol className="carousel-indicators">
+            <li
+              className="active"
+              data-slide-to="0"
+              data-target="#myCarousel"
+            ></li>
+            <li data-slide-to="1" data-target="#myCarousel"></li>
+            <li data-slide-to="2" data-target="#myCarousel"></li>
+          </ol>
 
+          <div className="row">
+            <div className="carousel-inner" role="listbox">
+              <div className="item active">
+                <img
+                  alt="CareerDevs Team"
+                  src={CareerDevsTeam20170622}
+                  className="img-responsive"
+                />
+                <div className="container">
+                  <div className="carousel-caption">
+                    <span>CareerDevs Team</span>
+                    <p>Teamwork in the Classroom</p>
+                  </div>
+                </div>
+              </div>
+              <div className="item">
+                <img
+                  alt="this is git"
+                  src={this_is_git}
+                  className="img-responsive"
+                />
+                <div className="container">
+                  <div className="carousel-caption">
+                    <span>this is git</span>
+                  </div>
+                </div>
+              </div>
+              <div className="item">
+                <img
+                  alt="NASDAQ App"
+                  src={NASDAQapp}
+                  className="img-responsive"
+                />
+                <div className="container">
+                  <div className="carousel-caption">
+                    <span>My First MEAN App</span>
+                  </div>
+                </div>
+              </div>
+              <div className="item">
+                <a
+                  href="https://code-42.github.io/newsapi"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={NewsLogos}
+                    id="logos"
+                    className="img-responsive"
+                    alt="News App"
+                  />
+                </a>
+              </div>
+              <a
+                className="left carousel-control"
+                data-slide="prev"
+                href="#myCarousel"
+              >
+                <span className="glyphicon glyphicon-chevron-left"></span>{" "}
+                <span className="sr-only">Previous</span>
+              </a>{" "}
+              <a
+                className="right carousel-control"
+                data-slide="next"
+                href="#myCarousel"
+              >
+                <span className="glyphicon glyphicon-chevron-right"></span>{" "}
+                <span className="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div> */}
+
+      {/* <div
+        id="carouselExampleSlidesOnly"
+        className="carousel slide"
+        data-ride="carousel"
+      >
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img src={this_is_git} className="d-block w-100" alt="..." />
+          </div>
+          <div className="carousel-item">
+            <img src={NASDAQapp} className="d-block w-100" alt="..." />
+          </div>
+          <div className="carousel-item">
+            <img src={NewsLogos} className="d-block w-100" alt="..." />
+          </div>
+        </div>
+      </div> */}
+
+      <div
+        id="carouselExampleControls"
+        className="carousel slide carousel-container"
+        data-ride="carousel"
+      >
+        <div className="carousel-inner">
+          <div className="carousel-item active">
+            <img src={NewsLogos} className="d-block w-100" alt="NewsLogos" />
+          </div>
+          <div className="carousel-item">
+            <img src={NASDAQapp} className="d-block w-100" alt="NASDAQapp" />
+          </div>
+          <div className="carousel-item">
+            <img
+              src={this_is_git}
+              className="d-block w-100"
+              alt="this_is_git"
+            />
+          </div>
+        </div>
+        <a
+          className="carousel-control-prev"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="prev"
+        >
+          <span
+            className="carousel-control-prev-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="sr-only">Previous</span>
+        </a>
+        <a
+          className="carousel-control-next"
+          href="#carouselExampleControls"
+          role="button"
+          data-slide="next"
+        >
+          <span
+            className="carousel-control-next-icon"
+            aria-hidden="true"
+          ></span>
+          <span className="sr-only">Next</span>
+        </a>
+      </div>
     </main>
   </>
 );
