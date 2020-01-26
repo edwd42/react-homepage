@@ -197,10 +197,9 @@ export const CareerDevs = () => (
       <footer>
         <p id="footer">
           &copy; 2020 Edward Dupre &middot;{" "}
-          <a href="https://edwd42.github.io/edwd42.com">Back to My Portfolio</a>{" "}
-          &middot;{" "}
+          <a href="https://edwd42.com">Back to My Portfolio</a> &middot;{" "}
           <a
-            href="https://github.com/edwd42/edwd42"
+            href="https://github.com/edwd42/react-homepage"
             target="_blank"
             rel="noopener noreferrer"
           >
