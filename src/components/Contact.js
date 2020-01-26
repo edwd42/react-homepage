@@ -1,11 +1,11 @@
 import React from "react";
+import "../assets/css/contact.css";
 import "../assets/css/navbar.css";
 
 export const Contact = () => (
   <div className="contact">
     <ul>
       <li className="list-item-content">
-        &nbsp;
         <i className="fa fa-phone" aria-hidden="true" />
         &nbsp;&nbsp;&nbsp;
         <button>(401) 497-6933</button>

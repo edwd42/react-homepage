@@ -37,8 +37,9 @@ body {
   padding: 0px 60px 0px 60px;
 }
 
-.certs {
+img {
   padding: 10px;
+  height: 150px;
 }
 
 .about {
@@ -168,7 +169,7 @@ a:hover {
 
 img {
   width: 400px;
-  height: 300px;
+  height: 280px;
   /* width: 100%; */
   display: block;
   margin-left: auto;
@@ -178,7 +179,7 @@ img {
 .carousel-container {
   /* width: 400px; */
   width: 700px;
-  height: 450px;
+  height: 400px;
   /* width: 100%; */
   display: block;
   margin-left: auto;
@@ -188,7 +189,7 @@ img {
 .carousel-container img {
   /* width: 400px; */
   width: 600px;
-  height: 450px;
+  height: 400px;
   /* width: 100%; */
   display: block;
   margin-left: auto;

@@ -1,6 +1,5 @@
 import React from "react";
 import "../assets/css/careerdevs.css";
-// import "../assets/css/style.css";
 import CareerDevsClassroom from "../assets/images/CareerDevsClassroom.png";
 import CareerDevsCohortOnRoofTop from "../assets/images/CareerDevsCohortOnRoofTop.jpg";
 import NASDAQapp from "../assets/images/CDImages/NASDAQapp.png";
@@ -119,142 +118,6 @@ export const CareerDevs = () => (
         </div>
       </div>
 
-      {/* <div id="information" className="about pad-section">
-        <div className="container">
-          <div className="row">
-            <div className="col-sm-4">
-              <div className="panel panel-default">
-                <div className="panel-heading">
-                  <h2 className="panel-title"></h2>
-                </div>
-                <div className="panel-body lead certs"></div>
-              </div>
-            </div>
-
-            <div className="col-sm-4">
-              <div className="panel panel-default">
-                <div className="panel-heading">
-                  <h2 className="panel-title"></h2>
-                </div>
-                <div className="panel-body lead"></div>
-              </div>
-            </div>
-            <div className="col-sm-4">
-              <div className="panel panel-default">
-                <div className="panel-heading">
-                  <h2 className="panel-title"></h2>
-                </div>
-                <div className="panel-body lead"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
-
-      {/* <div className="container">
-        <div className="carousel slide" data-ride="carousel" id="myCarousel">
-          <ol className="carousel-indicators">
-            <li
-              className="active"
-              data-slide-to="0"
-              data-target="#myCarousel"
-            ></li>
-            <li data-slide-to="1" data-target="#myCarousel"></li>
-            <li data-slide-to="2" data-target="#myCarousel"></li>
-          </ol>
-
-          <div className="row">
-            <div className="carousel-inner" role="listbox">
-              <div className="item active">
-                <img
-                  alt="CareerDevs Team"
-                  src={CareerDevsTeam20170622}
-                  className="img-responsive"
-                />
-                <div className="container">
-                  <div className="carousel-caption">
-                    <span>CareerDevs Team</span>
-                    <p>Teamwork in the Classroom</p>
-                  </div>
-                </div>
-              </div>
-              <div className="item">
-                <img
-                  alt="this is git"
-                  src={this_is_git}
-                  className="img-responsive"
-                />
-                <div className="container">
-                  <div className="carousel-caption">
-                    <span>this is git</span>
-                  </div>
-                </div>
-              </div>
-              <div className="item">
-                <img
-                  alt="NASDAQ App"
-                  src={NASDAQapp}
-                  className="img-responsive"
-                />
-                <div className="container">
-                  <div className="carousel-caption">
-                    <span>My First MEAN App</span>
-                  </div>
-                </div>
-              </div>
-              <div className="item">
-                <a
-                  href="https://code-42.github.io/newsapi"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src={NewsLogos}
-                    id="logos"
-                    className="img-responsive"
-                    alt="News App"
-                  />
-                </a>
-              </div>
-              <a
-                className="left carousel-control"
-                data-slide="prev"
-                href="#myCarousel"
-              >
-                <span className="glyphicon glyphicon-chevron-left"></span>{" "}
-                <span className="sr-only">Previous</span>
-              </a>{" "}
-              <a
-                className="right carousel-control"
-                data-slide="next"
-                href="#myCarousel"
-              >
-                <span className="glyphicon glyphicon-chevron-right"></span>{" "}
-                <span className="sr-only">Next</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div> */}
-
-      {/* <div
-        id="carouselExampleSlidesOnly"
-        className="carousel slide"
-        data-ride="carousel"
-      >
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img src={this_is_git} className="d-block w-100" alt="..." />
-          </div>
-          <div className="carousel-item">
-            <img src={NASDAQapp} className="d-block w-100" alt="..." />
-          </div>
-          <div className="carousel-item">
-            <img src={NewsLogos} className="d-block w-100" alt="..." />
-          </div>
-        </div>
-      </div> */}
-
       <div id="about" className="about pad-section">
         <div className="container">
           <div className="row">
@@ -330,5 +193,24 @@ export const CareerDevs = () => (
         <br />
       </div>
     </main>
+    <div>
+      <footer>
+        <p id="footer">
+          &copy; 2020 Edward Dupre &middot;{" "}
+          <a href="https://edwd42.github.io/edwd42.com">Back to My Portfolio</a>{" "}
+          &middot;{" "}
+          <a
+            href="https://github.com/edwd42/edwd42"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            My Github Repo
+          </a>
+        </p>
+      </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </>
 );
